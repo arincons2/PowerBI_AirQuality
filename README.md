@@ -30,3 +30,6 @@ Los datos fueron obtenidos de la página http://sisaire.ideam.gov.co/ideam-sisai
 * Ranking de las estaciones, con respecto a los 12 meses del año. Para Manizales, el ranking que ocupan las tres estaciones es muy cambiante. Sin embargo, de los meses marzo a junio, en la estación de la Gobernación se presentan mayores valores de PM10 (ocupa el primer lugar).  
 *  Variable con mayor influencia en PM10. Para Manizales, la variable que tiene mayor influencia en valores altos de PM10 es día de la semana. Para Pereira, la variable con mayor influencia es el tiempo en meses. Esto se obtuvo usando la herramienta ‘key influencers’.
 
+## ** Acceso a reporte Power BI interactivo: ** 
+https://app.powerbi.com/links/zl-65-prg9?ctid=c7ece3f9-5868-427d-a77f-e50bf0690a34&pbi_source=linkShare
+
