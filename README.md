@@ -1,35 +1,46 @@
 # PowerBI_AirQuality
-Proyecto Power BI: análisis de calidad del aire (PM10) en Manizales y Pereira
+Power BI Project: Air quality analysis
 
-## **Planteamiento del problema**
+## **Problem statement**
 
-La ciudad de Manizales (Caldas, Colombia) ha venido presentando un aumento en la cantidad de vehículos, lo cual afecta significativamente la calidad del aire. Esto tiene impacto en la salud y calidad de vida de las personas. Se desconoce la dependencia de la calidad del aire (PM10) con respecto a variables espacio-temporales como: zona de la ciudad, día de la semana, mes del año, y año. 
+The cities of Manizales and Pereira in Colombia have seen a rising number of cars in recent years, which has significantly impacted air quality. This decline in air quality, in turn, adversely affects the health and quality of life of residents. To tackle this issue, data analytics can be employed to identify the relationship between air quality and key factors, such as weather conditions. 
 
-## **Objetivo**
+## **Objective**
 
-Generar información sobre la dependencia de la calidad del aire (PM10) de Manizales y Pereira con respecto a variables espacio-temporales, que permita tomar decisiones informadas y entender la relación entre las variables, mediante el uso de herramientas gráficas generadas a partir de datos originales. 
+The objective is to provide detailed information on air quality in Manizales and Pereira, enabling informed decisions and a comprehensive understanding of the relationship between various factors, utilizing Power BI. This effort will specifically examine the dependency of PM10 levels on spatial and temporal variables, including city location, day of the week, month, and year.
 
-## **Herramientas usadas (habilidades)**
+## **Tools and techniques utilized**
 
-Herramientas usadas:
--fórmulas DAX (para creación de subtablas)
--filtros: filters, slicers 
--herramienta ‘key influencers’
--gráficas: line chart, line and clustered column chart, ribbon chart, bar chart.
+- DAX Formulas for Creating Sub-Tables
+- filters and slicers 
+- ‘key influencers’ tool
+- charts: line chart, line and clustered column chart, ribbon chart, bar chart, etc.
 
-## **Metodología**
 
-Los datos fueron obtenidos de la página http://sisaire.ideam.gov.co/ideam-sisaire-web/consultas.xhtml, descargados en formato xls. Este archivo fue abierto en Excel, en donde se crearon nuevas columnas (Año, Mes de 1 a 12, día de la semana, etc). Se importó la tabla del archivo Excel hacia Power BI (Power BI desktop), y se realizaron las distintas gráficas. Con el fin de realizar una gráfica de línea con líneas de PM10 a lo largo del tiempo en meses, usando una línea distinta para cada uno de los años (2022, 2023, 2024), se crearon tres nuevas sub-tablas, una para cada línea. Para estas sub-tablas se usaron formulas DAX. Se usó un slicer en cada una de las páginas del reporte, y estos slicers permiten filtrar por ciudad (Manizales o Pereira).      
+## **Methodology**
 
-## **Visualizaciones y análisis (Conclusiones)**
+The data was obtained from the webpage http://sisaire.ideam.gov.co/ideam-sisaire-web/consultas.xhtml and downloaded as an Excel file. After opening this file in Excel, several new columns were created, including Year, Month, and Day of the Week. The Excel table was then imported into Power BI (Power BI Desktop), where various charts and analyses were conducted. A slicer was implemented for each report page, allowing users to select between the cities of Manizales and Pereira.
+Specifically, a line chart was created to show the relationship between PM10 levels and the months of the year, displaying separate lines for the years 2022, 2023, and 2024. To achieve this, three sub-tables were generated using DAX formulas, one for each of the years 2022, 2023, and 2024.
 
-* Dependencia de PM10 con respecto a los 7 días de la semana. Para Manizales, el día domingo y sábado hay menores valores de PM10, mientras el miércoles y viernes hay mayores valores.
-* Dependencia de PM10 con respecto a los 12 meses del año. En Manizales, los meses marzo y septiembre son los meses con mayores valores de PM10.
-* Dependencia de PM10 con respecto a la estación de calidad del aire. Para Manizales, en promedio, el PM10 es mayor en la Gobernación que en la universidad UCM y que en Palogrande. 
-* Dependencia de PM10 con respecto a los años. Para Manizales, el PM10 en la estación UCM tiene una tendencia creciente a lo largo de los años, mientras que en las otras dos estaciones no hay una tendencia clara. 
-* Ranking de las estaciones, con respecto a los 12 meses del año. Para Manizales, el ranking que ocupan las tres estaciones es muy cambiante. Sin embargo, de los meses marzo a junio, en la estación de la Gobernación se presentan mayores valores de PM10 (ocupa el primer lugar).  
-*  Variable con mayor influencia en PM10. Para Manizales, la variable que tiene mayor influencia en valores altos de PM10 es día de la semana. Para Pereira, la variable con mayor influencia es el tiempo en meses. Esto se obtuvo usando la herramienta ‘key influencers’.
 
-##  Acceso a reporte Power BI interactivo:  
+
+## **Visualizations and insights**
+
+* Relationship Between PM10 Levels and Days of the Week. In Manizales, PM10 levels tend to be lower on Saturdays and Sundays, while they are higher on Wednesdays and Fridays. 
+* Relationship between PM10 levels and the months of the year. In Manizales, PM10 values are higher in March and September.
+* Relationship between PM10 levels and the air quality station. In Manizales, the PM10 levels at the 'Gobernacion' station are, on average, higher than those at 'UCM' and 'Palogrande'. 
+* Relationship between PM10 Levels and the Year. In Manizales, the PM10 levels at the 'UCM' station have shown an increasing trend over the years, while the other two stations do not display a clear trend. 
+* Ranking of air quality stations throughout the year, broken down by month. For Manizales, the ranking of the stations is overly fluctuating. However, the PM10 in ‘Gobernacion’ station is the highest during the period from March to June, thus occupying the first rank during this time.   
+* ‘key influencers’ tool. In Manizales, the highest influence on elevated PM10 levels is the 'day of the week' variable. In Pereira, the variable with the most significant impact on PM10 is the month.  
+
+## **Overall conclusions and project impact**
+
+* The Power BI analysis provided insights into the relationship between PM10 levels and various factors such as the day of the week, month of the year, year, and air quality station, specifically for Manizales and Pereira. This information enables informed decision-making aimed at improving the health and quality of life for residents.
+* The ribbon chart allowed for the comparison of PM10 rankings at different air quality stations over time, specifically for Manizales and Pereira.
+* The 'key influencers' tool helped identify the variable most influencing high PM10 values.
+* The DAX formulas were crucial for generating the PM10 line chart over time, with separate lines representing the years 2022, 2023, and 2024.
+
+
+##  Interactive Power BI report:  
 https://app.powerbi.com/links/zl-65-prg9?ctid=c7ece3f9-5868-427d-a77f-e50bf0690a34&pbi_source=linkShare
 
