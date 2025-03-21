@@ -1,4 +1,4 @@
-# PowerBI_AirQuality
+# PowerBI_project_Air_Quality
 Power BI Project: Air quality analysis
 
 ## **Problem statement**
