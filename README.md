@@ -41,6 +41,7 @@ Specifically, a line chart was created to show the relationship between PM10 lev
 * The DAX formulas were crucial for generating the PM10 line chart over time, with separate lines representing the years 2022, 2023, and 2024.
 
 
-##  Interactive Power BI report:  
+##  Interactive Power BI report:
+https://app.powerbi.com/view?r=eyJrIjoiZjI2ZmU2YzEtZWQ5Yy00M2Q2LTllNTctMGU1YTljZjc1YmQ1IiwidCI6ImM3ZWNlM2Y5LTU4NjgtNDI3ZC1hNzdmLWU1MGJmMDY5MGEzNCIsImMiOjR9
 https://app.powerbi.com/links/zl-65-prg9?ctid=c7ece3f9-5868-427d-a77f-e50bf0690a34&pbi_source=linkShare
 
