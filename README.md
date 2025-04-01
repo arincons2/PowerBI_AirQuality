@@ -23,7 +23,6 @@ The data was obtained from the webpage http://sisaire.ideam.gov.co/ideam-sisaire
 Specifically, a line chart was created to show the relationship between PM10 levels and the months of the year, displaying separate lines for the years 2022, 2023, and 2024. To achieve this, three sub-tables were generated using DAX formulas, one for each of the years 2022, 2023, and 2024.
 
 
-
 ## **Visualizations and insights**
 
 * Relationship Between PM10 Levels and Days of the Week. In Manizales, PM10 levels tend to be lower on Saturdays and Sundays, while they are higher on Wednesdays and Fridays. 
@@ -33,12 +32,21 @@ Specifically, a line chart was created to show the relationship between PM10 lev
 * Ranking of air quality stations throughout the year, broken down by month. For Manizales, the ranking of the stations is overly fluctuating. However, the PM10 in ‘Gobernacion’ station is the highest during the period from March to June, thus occupying the first rank during this time.   
 * ‘key influencers’ tool. In Manizales, the highest influence on elevated PM10 levels is the 'day of the week' variable. In Pereira, the variable with the most significant impact on PM10 is the month.  
 
-## **Overall conclusions and project impact**
+## **Tools/techniques utilized and achievements**
 
-* The Power BI analysis provided insights into the relationship between PM10 levels and various factors such as the day of the week, month of the year, year, and air quality station, specifically for Manizales and Pereira. This information enables informed decision-making aimed at improving the health and quality of life for residents.
+* The Power BI analysis provided insights into the relationship between PM10 levels and various factors such as the day of the week, month of the year, year, and air quality station, specifically for Manizales and Pereira. 
 * The ribbon chart allowed for the comparison of PM10 rankings at different air quality stations over time, specifically for Manizales and Pereira.
 * The 'key influencers' tool helped identify the variable most influencing high PM10 values.
 * The DAX formulas were crucial for generating the PM10 line chart over time, with separate lines representing the years 2022, 2023, and 2024.
+
+## **Overall conclusions and project impact**
+* The Power BI analysis provided insights into the relationship between PM10 levels and various factors, specifically for Manizales and Pereira. 
+* This information helps make informed decisions to enhance residents' health and quality of life, such as transportation measures that reduce air pollution.
+
+## **Recommendations**
+
+* Protective measures for people must be taken on days and months with the highest air pollution, namely Wednesday and Friday, as well as in March and September, for Manizales. For instance, communication campaigns about health risks should be conducted during these periods, especially for individuals with respiratory issues.
+* Transportation measures should be taken on days and months with the highest air pollution. For instance, fostering the use of public transportation and low-carbon-emission transport.
 
 
 ##  Interactive Power BI report:
