@@ -46,7 +46,7 @@ Specifically, a line chart was created to show the relationship between PM10 lev
 ## **Recommendations**
 
 * Protective measures for people must be taken on days and months with the highest air pollution, namely Wednesday and Friday, as well as in March and September, for Manizales. For instance, communication campaigns about health risks should be conducted during these periods, especially for individuals with respiratory issues.
-* Transportation measures should be taken on days and months with the highest air pollution. For instance, fostering the use of public transportation and low-carbon-emission transport.
+* Transportation measures should be taken on days and months with the highest air pollution. For instance, fostering the use of public transportation and low-carbon-emission transport, as well as imposing license plate restrictions.
 
 
 ##  Interactive Power BI report:
