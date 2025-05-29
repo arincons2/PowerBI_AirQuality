@@ -50,3 +50,5 @@ https://app.powerbi.com/view?r=eyJrIjoiZWQxZjhiZjUtOGQ3Ny00Y2I4LTljOTktNDZlM2UzN
 
 <iframe title="PM10_MilanIcatGob" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWQxZjhiZjUtOGQ3Ny00Y2I4LTljOTktNDZlM2UzNjliYjkwIiwidCI6ImM3ZWNlM2Y5LTU4NjgtNDI3ZC1hNzdmLWU1MGJmMDY5MGEzNCIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
 
+### Sample of the Power BI report:
+https://github.com/arincons2/PowerBI_AirQuality/blob/9bf39f77653e4f1ecb2f1d07ccb0ab1bc7e65b55/Pres1_PowerBI.pdf
