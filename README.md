@@ -1,6 +1,9 @@
 # PowerBI_project_Air_Quality
 Power BI Project: Air quality analysis
 
+Interactive Power BI report:
+https://app.powerbi.com/view?r=eyJrIjoiZWQxZjhiZjUtOGQ3Ny00Y2I4LTljOTktNDZlM2UzNjliYjkwIiwidCI6ImM3ZWNlM2Y5LTU4NjgtNDI3ZC1hNzdmLWU1MGJmMDY5MGEzNCIsImMiOjR9
+
 ## **Problem statement**
 
 The cities of Manizales and Pereira in Colombia have seen a rising number of cars in recent years, which has significantly impacted air quality. This decline in air quality, in turn, adversely affects the health and quality of life of residents. To tackle this issue, data analytics can be employed to identify the relationship between air quality and key factors, such as weather conditions. 
